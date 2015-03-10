@@ -4,11 +4,16 @@ Use me as follows:
 
 (MaplessMongoRepository on: aMongoDatabase) do: [ 
 	
-	:aRepository |
-	
 	"your stuff here"
 	
+	"The repository is available using a dynamic variable :"
+
+	MaplessCurrentRepository value
+	
+	
 	 ]
+
+
 
 I am providing concrete Mongo-specific support for the standard MaplessRepository features.
 

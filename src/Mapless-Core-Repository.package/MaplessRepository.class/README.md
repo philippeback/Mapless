@@ -6,7 +6,7 @@ Each MaplessRepository is connected to a single database.
 
 e.g.
 
-repo := ConcreteMaplessRepository on: 'db'.
+repo := ConcreteMaplessRepository onDatabaseName: 'db'.
 
 from there, one can use the MaplessRepository features.
 

@@ -22,20 +22,8 @@ testDestroy
 	
 	people do:[ :guy | guy destroy ] .
 
-	Transcript nextPutAll: 'TEST';cr.
-	self assert: ( people allSatisfy: [ :guy | 
-		| notExists |
-		self halt.
-		notExists := ( DummyPerson existsId: guy id ) not.
-		Transcript 
-			nextPutAll: 'test - ';
-			nextPutAll: guy firstName; 
-			nextPutAll: ' ?Not exists:';
-			nextPutAll: notExists asString; 
-			cr;
-			flush.
-		notExists
-		] ).
+	
+	self assert: ( people allSatisfy: [ :guy | ( DummyPerson existsId: guy id ) not ] ).
 	
 	
 	]
