@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PhilippeBack 3/10/2015 14:35",
 	"instvars" : [
 		 ],
-	"name" : "MongoAPI",
+	"name" : "MongoClient",
 	"pools" : [
 		 ],
 	"super" : "Mongo",

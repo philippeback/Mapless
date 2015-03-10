@@ -7,7 +7,7 @@ requestClient
 	| client |
 
 	self clientsMutex critical: [
-		"Transcript cr; show: 'getting odb client p: ', Processor activeProcess hash asString."
+		"Transcript cr; show: 'getting Mapless client p: ', Processor activeProcess hash asString."
 		client := self hasIdleClients
 				ifTrue: [ self idleClients anyOne ]
 				ifFalse: [ self makeClient ].

@@ -8,7 +8,7 @@
 		"database" : "sebastiansastre 2/19/2015 12:51",
 		"databaseCollectionNamed:" : "sebastiansastre 2/19/2015 16:21",
 		"delete:" : "sebastiansastre 2/19/2015 22:29",
-		"denormalizeIdOf:" : "sebastiansastre 2/18/2015 18:17",
+		"denormalizeIdOf:" : "PhilippeBack 3/10/2015 14:51",
 		"do:" : "FV 1/30/2015 10:28",
 		"ensureCollectionNamed:" : "sebastiansastre 2/19/2015 18:09",
 		"hasCollectionNamed:" : "sebastiansastre 2/19/2015 16:32",
@@ -17,7 +17,7 @@
 		"instanceOf:where:" : "sebastiansastre 2/21/2015 16:43",
 		"instancesOf:where:" : "FV 1/30/2015 16:02",
 		"isUnsaved:" : "sebastiansastre 2/18/2015 18:05",
-		"normalizeIdOf:" : "sebastiansastre 2/18/2015 18:16",
+		"normalizeIdOf:" : "PhilippeBack 3/10/2015 14:51",
 		"onAboutToDelete:" : "jupiter 3/4/2015 08:56",
 		"onAboutToDestroy:" : "jupiter 3/4/2015 08:37",
 		"onAboutToInsert:" : "jupiter 3/4/2015 08:37",
@@ -34,4 +34,5 @@
 		"onBeforeInsert:" : "sebastiansastre 2/18/2015 18:12",
 		"onBeforeSave:" : "sebastiansastre 2/18/2015 18:12",
 		"onBeforeUpdate:" : "sebastiansastre 2/18/2015 18:12",
-		"storableFor:" : "sebastiansastre 2/19/2015 15:56" } }
+		"save:" : "PhilippeBack 3/10/2015 14:54",
+		"storableFor:" : "PhilippeBack 3/10/2015 14:45" } }

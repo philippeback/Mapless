@@ -4,8 +4,9 @@ fromJSONObject: aJsonObjectOrNilOrArray
 	| modelClass | 
 	aJsonObjectOrNilOrArray ifNil: [ ^ nil ].
 	aJsonObjectOrNilOrArray isArray ifTrue: [ ^ self fromJSONObjects: aJsonObjectOrNilOrArray ].
-	 
-	modelClass := aJsonObjectOrNilOrArray at: 'modelClass' ifAbsent: [ ^nil ].
+	
+	"returns Mapless instances if there is no modelClass" 
+	modelClass := aJsonObjectOrNilOrArray at: 'modelClass' ifAbsent: [ 'Mapless' ].
 	
 	^ (Smalltalk at: modelClass asSymbol) basicNew 
 		initializeOn: aJsonObjectOrNilOrArray asJsonObject;

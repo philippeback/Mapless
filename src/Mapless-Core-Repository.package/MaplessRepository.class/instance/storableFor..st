@@ -1,7 +1,7 @@
 actions
 storableFor: aJsonObject
 	"Returns a new JsonObject that's the BSON friendly version of aJsonObject
-	by visinting all the values. It will complain if sub models are not previously saved."
+	by visiting all the values. It will complain if sub models are not previously saved."
 	
 	| storableDocument storablePart |
 		

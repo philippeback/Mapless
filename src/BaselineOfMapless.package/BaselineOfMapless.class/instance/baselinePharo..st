@@ -7,7 +7,7 @@ baselinePharo: spec
 				configuration: 'MongoTalk'
 				with: [ 
 					spec
-						versionString: #bleedingEdge;
+						versionString: '1.7.0'; "For Pharo3.0"
 						repository: 'http://smalltalkhub.com/mc/MongoTalkTeam/mongotalk/main' ].
 			spec
 				configuration: 'Xtreams'

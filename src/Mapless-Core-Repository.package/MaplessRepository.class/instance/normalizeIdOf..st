@@ -1,7 +1,7 @@
 actions
 normalizeIdOf: aMapless
 	"Normalizes aMapless id for the API.
-	idAttritbute -> 'id'
+	idAttribute -> 'id'
 	Makes sure that aMapless has the id attribute 
 	under the name 'id' taking the information from this concrete repository.
 	Removes it from the concrete place in case is present (not failing if absent)." 

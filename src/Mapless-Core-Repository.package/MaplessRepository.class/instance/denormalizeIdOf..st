@@ -1,7 +1,7 @@
 actions
 denormalizeIdOf: aMapless
 	"Normalizes aMapless id for the concrete backend (instead of the Mapless API).
-	'id' -> idAttritbute
+	'id' -> idAttribute
 	Makes sure that aMapless has the id attribute 
 	under the right name for this concrete repository.
 	Removes it from 'id' in case is present (not failing if absent)." 

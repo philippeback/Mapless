@@ -2,9 +2,9 @@
 	"class" : {
 		"databaseNamed:" : "sebastiansastre 2/18/2015 17:25" },
 	"instance" : {
-		"destroy:" : "sebastiansastre 3/9/2015 15:08",
+		"destroy:" : "sebastiansastre 2/19/2015 15:56",
 		"ensureCollection" : "FV 1/28/2015 17:29",
-		"existsId:of:" : "sebastiansastre 2/19/2015 22:55",
+		"existsId:of:" : "PhilippeBack 3/10/2015 15:02",
 		"idAttribute" : "sebastiansastre 2/19/2015 15:53",
 		"insert:" : "sebastiansastre 2/19/2015 15:56",
 		"instanceOf:atId:" : "FV 1/30/2015 16:02",

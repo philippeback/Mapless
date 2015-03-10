@@ -1,0 +1,1 @@
+A MongoCurrentClient is a DynamicVariable that is used to transport the MongoDB client object in user provided blocks.
