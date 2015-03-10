@@ -150,3 +150,7 @@ Why?
 
 Because the idea is that you keep these objects small and uncomplicated enough to be more efficienty serialized/deserialized in JSON for using it is some sort of noSQL persistence support.
 
+A Mapless is able to access the underlying repository through currentRepository.
+
+
+
