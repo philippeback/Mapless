@@ -1,0 +1,14 @@
+{
+	"category" : "Mapless-Mongo-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 3/13/2015 11:03",
+	"instvars" : [
+		 ],
+	"name" : "DummyHouse",
+	"pools" : [
+		 ],
+	"super" : "MaplessMongo",
+	"type" : "normal" }

@@ -3,6 +3,7 @@ asJsonObject
 
 	"The only valid scenario when this won't have an id 
 	is when it wraps an unsaved submodel"
+
 	id ifNil: [ id := model id ].
 
 	"a nil id at this point should never happen"	

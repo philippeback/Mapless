@@ -8,6 +8,7 @@ requestClient
 
 	self clientsMutex critical: [
 		"Transcript cr; show: 'getting Mapless client p: ', Processor activeProcess hash asString."
+		self flag: #TODO. "A check must be made to ensure the client is still alive"
 		client := self hasIdleClients
 				ifTrue: [ self idleClients anyOne ]
 				ifFalse: [ self makeClient ].
