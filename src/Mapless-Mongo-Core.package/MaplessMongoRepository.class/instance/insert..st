@@ -1,13 +1,13 @@
 actions
 insert: aMapless
 	
-	| bsonFriendly |
+	| bsonFriendly   |
 
 	self onBeforeInsert: aMapless.
 
 	[ bsonFriendly := (self storableFor: aMapless data) ] ifCurtailed: [
 		aMapless data removeKey: self idAttribute ifAbsent: [ nil ] ] .
-
-	(self databaseCollectionNamed: aMapless class name asString) add: bsonFriendly. 
+	
+	(self collection: aMapless) add: bsonFriendly.
 
 	self onAfterInsert: aMapless

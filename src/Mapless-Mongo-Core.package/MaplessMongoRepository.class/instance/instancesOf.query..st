@@ -4,7 +4,7 @@ instancesOf: aMaplessClass query: aQuery
 
 	| result databaseCollection |
 
-	databaseCollection := self databaseCollectionNamed: aMaplessClass name asString.
+	databaseCollection := self collection: aMaplessClass.
 	result := databaseCollection query: aQuery.
 	
 	^(result isNil and:[result isEmpty])

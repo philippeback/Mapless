@@ -12,6 +12,6 @@ destroy: aMapless
 				yourself. 
 	bsonFriendly := self storableFor: filter.
 		
-	(self databaseCollectionNamed: aMapless class name asString) remove: bsonFriendly.
+	(self collection: aMapless) remove: bsonFriendly.
 	
 	self onAfterDestroy: aMapless

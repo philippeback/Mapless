@@ -4,7 +4,7 @@ instancesOf: aMaplessClass where: someConditions limit: aLimitOrNil offset: anOf
 
 	| result databaseCollection |
 
-	databaseCollection := self databaseCollectionNamed: aMaplessClass name asString.
+	databaseCollection := self  collection: aMaplessClass.
 	result := databaseCollection query:[:q | 
 		aLimitOrNil ifNotNil: [ :limit | q limit: limit ].
 		anOffsetOrNil ifNotNil: [ :offset | q offset: offset ].

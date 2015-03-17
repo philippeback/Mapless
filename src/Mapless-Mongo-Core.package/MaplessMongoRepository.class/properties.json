@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "PhilippeBack 3/10/2015 19:08",
 	"instvars" : [
-		 ],
+		"cachingCollections",
+		"collectionsCache" ],
 	"name" : "MaplessMongoRepository",
 	"pools" : [
 		 ],
