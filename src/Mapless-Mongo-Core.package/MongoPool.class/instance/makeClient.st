@@ -4,6 +4,7 @@ makeClient
 
 	^ (MongoClient 
 		host: (ConfigurationFiles at: #Mongo at: #host) 
-		port: (ConfigurationFiles at: #Mongo at: #port)) 
+		port: (ConfigurationFiles at: #Mongo at: #port))
+			beLogging: (ConfigurationFiles at: #Mongo at: #logging);
 			open;
 			yourself 
